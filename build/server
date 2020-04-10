@@ -1,0 +1,3 @@
+#!/bin/sh
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+java -cp $SCRIPTPATH:$SCRIPTPATH/lib/json-simple-1.1.jar Server $1 $2 $3 $4
